@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leah Mayer | Data Portfolio</title>
+  <style>
+    :root {
+      --text: #1f2933;
+      --muted: #52606d;
+      --accent: #1f5f8b;
+      --bg: #ffffff;
+      --rule: #d9e2ec;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --text: #e4e7eb; --muted: #9aa5b1; --accent: #7fb8e0; --bg: #121417; --rule: #323f4b; }
+    }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 20px;
+    }
+    h1 { margin: 0 0 4px; font-size: 2rem; }
+    h2 { font-size: 1.25rem; margin: 40px 0 12px; padding-top: 16px; border-top: 1px solid var(--rule); }
+    h3 { font-size: 1.05rem; margin: 0 0 4px; }
+    .tagline { color: var(--muted); margin: 0 0 16px; }
+    .project { margin-bottom: 24px; }
+    .project p { margin: 0; color: var(--muted); }
+    .tags { font-size: 0.9rem; color: var(--muted); margin-top: 4px; }
+    a { color: var(--accent); }
+    footer { margin-top: 48px; font-size: 0.9rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Leah Mayer</h1>
+    <p class="tagline">M.S. Biological Data Science, Arizona State University. Epidemiology, genetic data, and clinical research.</p>
+
+    <h2>About</h2>
+    <p>I come from a biology and veterinary background, and I am training in data science to work on health and clinical questions. My clinical experience as a veterinary technician taught me how records are kept and why accuracy matters, and my graduate work focuses on applying statistics and programming to biological and health data.</p>
+
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Maternal depression and household income (NHANES)</h3>
+      <p>Analysis of NHANES data on women with children 18 or younger, examining associations between depression status and household income, marital status, miscarriages, and current pregnancy.</p>
+      <div class="tags">R, data cleaning, t-tests, chi-square and Fisher tests</div>
+    </div>
+
+    <div class="project">
+      <h3>Self-rated health and lifetime hypertension (MEPS)</h3>
+      <p>Cross-sectional analysis of Medical Expenditure Panel Survey data on whether poor or fair self-rated health is associated with a lifetime hypertension diagnosis, stratified by household income.</p>
+      <div class="tags">R, prevalence ratios, odds ratios, prevalence differences</div>
+    </div>
+
+    <h2>Skills</h2>
+    <p><strong>Programming and tools:</strong> R, Python, SQL, JMP, Microsoft Excel</p>
+    <p><strong>Methods:</strong> Survey-weighted analysis, regression, hypothesis testing, measures of association, data cleaning and validation</p>
+    <p><strong>Data sources:</strong> NHANES, MEPS</p>
+
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:leah.mayer1@outlook.com">leah.mayer1@outlook.com</a></p>
+
+    <footer>Built with GitHub Pages.</footer>
+  </main>
+</body>
+</html>
